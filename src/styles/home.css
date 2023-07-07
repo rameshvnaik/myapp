@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.grid-row {
+    justify-content: center;
+}
+.grid-col {
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+  /* max-width: 20%; */
+  width: 250px;
+  margin: 10px;
+  height: 150px;
+  display: block;
+  color: blue;
+  /* text-align: center; */
+  border-radius: 7px;
+
+}
+
+.grid-col .grid-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main-div{
+  background-image: linear-gradient(rgb(56, 56, 120), rgb(33, 33, 41));
+  
+}
+
+.heading{
+  text-align: center;
+  color: rgb(242, 230, 67);
+}
